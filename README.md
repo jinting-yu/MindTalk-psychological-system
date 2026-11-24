@@ -1,24 +1,23 @@
-# dati-frontend
+# 大学生心理健康管理系统
+> 毕业设计项目，后端 SpringBoot + SpringAI，前端 Vue3 + TypeScript
 
-## Project setup
-```
-npm install
-```
+## ✨ 项目简介
+面向高校大学生的心理健康服务平台，支持心理测评、AI心理咨询、情绪日记、紧急联系人、心理科普文章、咨询师聊天等功能，辅助学生疏导心理压力，同时方便管理人员查看测评数据、跟进心理高危学生。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 🛠️ 技术栈
+### 后端
+- Spring Boot
+- Spring AI
+- MySQL
+- Redis
+- RAG知识库检索
+- DeepSeek API
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 前端
+- Vue3 + TypeScript
+- Vue Router
+- Pinia
+- Axios
+- Element Plus
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 📁 项目结构
