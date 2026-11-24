@@ -1,0 +1,39 @@
+server:
+  port: 8081
+  tomcat:
+    max-http-header-size: 8192
+    max-http-post-size: 2097152
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mental_health?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 3121344724ly
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+
+jwt:
+  secret: mentalhealth2025abcdefghijklmn
+  expire: 7
+
+deepseek:
+  api-key: sk-2f6789b09ede484eb0d850046659293e
+  base-url: https://api.deepseek.com/v1
+  model: deepseek-chat
+
+logging:
+  level:
+    com.mental: info
+    org.apache.ibatis: warn
+    com.baomidou: warn
